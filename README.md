@@ -17,7 +17,7 @@ Solve:<br>
 -4x - 1y + 3z = 1<br>
 This system has 3 equations and 4 variables, equivalent to 3 rows and 4 columns<br>
 To solve this pass in the co-efficients of each row to the program<br>
-## Program Screenshot:
+## Program Screenshot
 <img src="/SolvingSimulteneousEquation.png">
 
 From the program above, the reduced Echelon Form is:<br>
