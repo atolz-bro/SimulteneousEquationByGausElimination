@@ -1,15 +1,31 @@
 # SimulteneousEquationByGausElimination
 This is a Java Program that helps to solve simulteneous equations of any number of equations and variables(e,g 3 by 3, 5 by 5 e.t.c)
 
-It solves the simulteneous equation by reducing the system to Echelon Form, the variables can then be solved by back substitution
+It solves the simulteneous equation by reducing the system to Echelon Form; the variables can then be solved by back substitution
 
-Example<br>
+## How to use this program
+To run this program you need to have the Java Development Kit(JDK) package which contains the ```javac``` compiler and ```java``` application luncher commands<br>
+To run the program from the command line, download this repository and get/copy the path to the Calculate.java File<br>
+From the command line move/cd into your JDK containing the ```java``` command, <br>
+Then type ```java path_to_your_Calculate.java```
+
+
+## Example<br>
 Solve:<br>
 &nbsp;1x + 1y -1z = 1<br>
 &nbsp;8x + 3y -6z = 1<br>
 -4x - 1y + 3z = 1<br>
 This system has 3 equations and 4 variables, equivalent to 3 rows and 4 columns<br>
 To solve this pass in the co-efficients of each row to the program<br>
-## Screenshot below:
+## Program Screenshot:
+<img src="/SolvingSimulteneousEquation.png">
 
-![SolvingSimulteneousEquation](https://user-images.githubusercontent.com/62163687/181212229-26bcac2d-a01e-4568-82ba-83288be4d33d.png)
+From the program above, the reduced Echelon Form is:<br>
+1x + 1y - 1z =  1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 5y + 2z = -7<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- 1z = -4<br>
+       
+Then solving by back-substitution:<br>
+z = 4 &nbsp;&nbsp;[ dividing both side by -1 ]<br>
+y = 3 &nbsp;&nbsp;[ (-7 - 2z / 5 ) ==> (-7 -2(4)) / -5 ]<br>
+x = 2 &nbsp;&nbsp;[ 1 + 1z + 1y ]<br>
