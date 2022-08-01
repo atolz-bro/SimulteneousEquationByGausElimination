@@ -29,3 +29,6 @@ Then solving by back-substitution:<br>
 z = 4 &nbsp;&nbsp;[ dividing both side by -1 ]<br>
 y = 3 &nbsp;&nbsp;[ (-7 - 2z / 5 ) ==> (-7 -2(4)) / -5 ]<br>
 x = 2 &nbsp;&nbsp;[ 1 + 1z + 1y ]<br>
+
+<video controls width="250" src="/ux-part2.webm.mov">
+Fall back</video>
