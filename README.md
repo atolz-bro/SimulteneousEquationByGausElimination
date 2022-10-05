@@ -10,6 +10,9 @@ Solve:<br>
 -4x - 1y + 3z = 1<br>
 This system has 3 equations and 4 variables, equivalent to 3 rows and 4 columns<br>
 To solve this, pass in the co-efficients of each row to the program<br>
+
+## How to run
+Make sure that your Path environment variable set to the JDK containing the java executor program; then change your directory to src/Calculate.java from the command line and enter java Calculate.java
 ## Program Screenshot
 <img src="/SolvingSimulteneousEquation.png">
 
