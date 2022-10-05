@@ -3,13 +3,6 @@ This is a Java Program that helps to solve simulteneous equations of any number 
 
 It solves the simulteneous equation by reducing the system to Echelon Form; the variables can then be solved by back substitution
 
-## How to use this program
-To run this program you need to have the Java Development Kit(JDK) package which contains the ```javac``` compiler and ```java``` application luncher commands<br>
-To run the program from the command line, download this repository and get/copy the path to the Calculate.java File<br>
-From the command line move/cd into your JDK containing the ```java``` command, <br>
-Then type ```java path_to_your_Calculate.java```
-
-
 ## Example<br>
 Solve:<br>
 &nbsp;1x + 1y -1z = 1<br>
