@@ -9,7 +9,7 @@ Solve:<br>
 &nbsp;8x + 3y -6z = 1<br>
 -4x - 1y + 3z = 1<br>
 This system has 3 equations and 4 variables, equivalent to 3 rows and 4 columns<br>
-To solve this pass in the co-efficients of each row to the program<br>
+To solve this, pass in the co-efficients of each row to the program<br>
 ## Program Screenshot
 <img src="/SolvingSimulteneousEquation.png">
 
